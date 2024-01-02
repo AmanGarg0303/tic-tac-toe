@@ -1,0 +1,37 @@
+.container {
+  position: absolute;
+  bottom: 5vh;
+  left: 15vw;
+  padding: 20px 50px;
+  border-radius: 20px;
+  background: var(--bg-container);
+  box-shadow: 5px 5px 5px var(--box-shadow-back);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 260px;
+  gap: 20px;
+}
+
+.heading {
+  color: var(--blue);
+  font-size: 26px;
+}
+
+.quote {
+  color: var(--yellow);
+  font-size: 23px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.quoteIconCircle {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

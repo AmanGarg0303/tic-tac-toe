@@ -1,0 +1,137 @@
+.container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.main_container {
+  width: 100%;
+  color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 50px;
+}
+
+.topLayer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* position: relative; */
+}
+
+.svgIcons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.svgIcons > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.turn {
+  background-color: var(--med-gray);
+  padding: 6px 14px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px var(--box-shadow-back);
+  cursor: default;
+}
+.turn > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.turn > p {
+  font-size: 14px;
+}
+
+.refreshIcon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.refreshIcon > img {
+  padding: 5px;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 5px;
+  background-color: var(--light-gray);
+  box-shadow: 1px 1px 1px var(--box-shadow-back);
+  cursor: pointer;
+}
+
+.gameBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.singleBox {
+  width: auto;
+  background-color: var(--med-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: 1px 3px 0px var(--box-shadow-back);
+  cursor: pointer;
+  width: 6rem;
+  height: 6rem;
+}
+
+.singleBox > img {
+  width: 50px;
+  height: 50px;
+}
+
+.scores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 20px;
+  color: var(--box-shadow-back);
+}
+
+.scoreName {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.myWin {
+  background-color: var(--blue);
+  border-radius: 5px;
+  padding: 4px 0;
+}
+
+.ties {
+  background-color: var(--light-gray);
+  border-radius: 5px;
+  padding: 4px 0;
+}
+
+.cpuWin {
+  background-color: var(--yellow);
+  border-radius: 5px;
+  padding: 4px 0;
+}

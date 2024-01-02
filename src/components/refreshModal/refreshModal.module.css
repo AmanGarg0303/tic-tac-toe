@@ -1,0 +1,63 @@
+.container {
+  background-color: #152128;
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.crossIcon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.crossIcon > img {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+h4 {
+  color: var(--yellow);
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  font-size: 14px;
+  font-weight: 800;
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.newGame {
+  background-color: var(--blue);
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 20%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--blue-hover);
+  }
+}
+
+.quit {
+  background-color: var(--yellow);
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 20%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--yellow-hover);
+  }
+}

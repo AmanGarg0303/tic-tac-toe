@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.svgIcons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.choose_player {
+  background: var(--med-gray);
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  padding-bottom: 30px;
+  box-shadow: 2px 2px 2px var(--box-shadow-back);
+  margin-bottom: 15px;
+}
+
+.choose_player > h5 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.svgIconsChoose {
+  background-color: var(--bg-container);
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.iconSpace {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.selected {
+  padding: 4px 0;
+  border-radius: 5px;
+  background-color: var(--light-gray);
+}
+
+button {
+  all: unset;
+  background-color: transparent;
+}
+
+.newGame {
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 4px;
+  color: var(--box-shadow-back);
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.human {
+  background-color: var(--blue);
+
+  &:hover {
+    background-color: var(--blue-hover);
+  }
+}
+
+.cpu {
+  background-color: var(--yellow);
+
+  &:hover {
+    background-color: var(--yellow-hover);
+  }
+}
+
+.invite {
+  padding: 8px;
+  margin-top: 70px;
+  width: 70%;
+  background-color: var(--yellow);
+  text-align: center;
+  color: var(--box-shadow-back);
+  font-weight: 800;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--yellow-hover);
+  }
+}

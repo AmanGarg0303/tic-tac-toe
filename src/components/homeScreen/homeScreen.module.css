@@ -1,0 +1,12 @@
+.container {
+  height: 90vh;
+  border-radius: 35px;
+  background: var(--bg-container);
+  box-shadow: 5px 5px 5px var(--box-shadow-back);
+  color: white;
+  min-width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
